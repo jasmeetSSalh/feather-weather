@@ -2,6 +2,9 @@
 
 This is the technical documentation for the **Feather Weather Application** project by *jasmeetSSalh*. The application is designed to retrieve and display weather information based on user input or predefined coordinates.
 
+![image](https://github.com/jasmeetSSalh/feather-weather/assets/121359518/ac2ac49f-5080-48dd-9b79-b3a8dedb4f0a)
+
+
 ## Table of Contents
 
 - [Introduction](#introduction)
