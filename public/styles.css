@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .body-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #F9F8EB;
+  }
+
+  .top-icon {
+    background-color: #F9F8EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    z-index: 2;
+  }
+
+  .content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #74B49B;
+    min-width: 450px;
+    height: 350px;
+    margin: auto;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+    margin-top: 20%; /* Adjust the value to create spacing */
+  }
+
+  .inner-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #A7D7C5;
+    min-width: 400px;
+    height: 300px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 15px;
+  }
+
+  .form-container {
+    display: flex;
+    justify-content: center;
+    max-width: 400px;
+    background-color: #F5EFE7;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .search-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    background-color: #F1FEE3;
+    border-radius: 10px 0 0 10px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+
+  .search-btn {
+    width: 30px;
+    height: 20px;
+  }
+
+  .search-button {
+    background-color: #F1FEE3;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    padding-left: 5%;
+    padding: 10px 15px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s;
+  }
+
+  .search-button:hover {
+    background-color: #2779bd;
+  }
+
+  /* Add styling to the weather information */
+  .weather-info {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .weather-info h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+
+  .weather-info p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 4px;
+  }
+
+  /* Additional weather information styling */
+  .weather-details {
+    margin-top: 16px;
+  }
+
+  .weather-details p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 2px;
+  }
+
+  .temperature {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .weather-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  width: 90%;
+}
+
+.weather-card {
+  background-color: #F5EFE7;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 90%;
+}
+
+.name{
+  font-size: 1.5rem;
+}
